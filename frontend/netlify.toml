@@ -1,0 +1,16 @@
+[build]
+  base = "./"
+  publish = "build/"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  REACT_APP_API_URL = "https://employee-management-system-vbqpcwle.fly.dev/api/v1"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  REACT_APP_API_URL = "https://employee-management-system-vbqpcwle.fly.dev/api/v1"
