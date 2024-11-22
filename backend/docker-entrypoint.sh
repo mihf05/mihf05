@@ -68,9 +68,12 @@ END
 
 # Run migrations
 echo "Running database migrations..."
-if [ ! -f /app/alembic/versions/*.py ]; then
+MIGRATION_DIR="/app/alembic/versions"
+mkdir -p "$MIGRATION_DIR"
+
+if [ -z "$(ls -A $MIGRATION_DIR)" ]; then
     echo "No migrations found. Creating initial migration..."
-    # Drop and recreate alembic_version table
+    # Reset alembic state
     python << END
 import psycopg2
 conn = psycopg2.connect(dbname="${DB_NAME}", user="${DB_USER}", password="${DB_PASS}", host="${DB_HOST}", port="${DB_PORT}")
@@ -79,9 +82,14 @@ cur.execute("DROP TABLE IF EXISTS alembic_version")
 conn.commit()
 conn.close()
 END
-    alembic revision --autogenerate -m "initial migration"
+
+    # Create and run initial migration
+    alembic revision --autogenerate -m "initial_migration" || exit 1
+    alembic upgrade head || exit 1
+else
+    echo "Existing migrations found. Running upgrade..."
+    alembic upgrade head || exit 1
 fi
-alembic upgrade head
 
 # Create initial data
 echo "Creating initial data..."

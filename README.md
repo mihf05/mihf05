@@ -75,15 +75,27 @@ The API documentation is available at `/docs` or `/redoc` when running the backe
 ## Deployment
 
 ### Backend
-The backend is deployed on fly.io at:
-```
-https://employee-management-system-vbqpcwle.fly.dev
+The backend can be deployed using Docker:
+```bash
+cd backend
+docker build -t employee-management-system:latest .
+docker run -d \
+  -p 8001:8001 \
+  -e DATABASE_URL="your-database-url" \
+  -e SECRET_KEY="your-secret-key" \
+  -e CORS_ORIGINS="your-frontend-url" \
+  employee-management-system:latest
 ```
 
+Current deployment status:
+- Frontend: https://remarkable-dieffenbachia-df2ca5.netlify.app
+- Backend: Containerized (46MB Alpine-based image)
+- Database: PostgreSQL on AWS RDS
+
 ### Frontend
-The frontend is a static site that can be deployed on any static hosting service:
+The frontend is deployed on Netlify:
 1. Build the frontend: `npm run build`
-2. Deploy the `build` directory
+2. Deploy using Netlify CLI or GitHub integration
 
 ## Security Features
 
