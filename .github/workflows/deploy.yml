@@ -37,12 +37,24 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      - name: Deploy to Railway
+      - name: Deploy to Production
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          DATABASE_URL: postgresql://user_lcdajasdhr:sOmqrAFn9q4N6msOvAb4@devinapps-backend-prod.cluster-clussqewa0rh.us-west-2.rds.amazonaws.com/db_bkfgnsyihz?sslmode=require
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          CORS_ORIGINS: https://remarkable-dieffenbachia-df2ca5.netlify.app,https://employee-management-system-nauue8lh.devinapps.com
         run: |
-          curl -fsSL https://railway.app/install.sh | sh
-          railway up --service ${{ secrets.RAILWAY_SERVICE_NAME }} \
-            -d DATABASE_URL=${{ secrets.DATABASE_URL }} \
-            -d SECRET_KEY=${{ secrets.SECRET_KEY }} \
-            -d CORS_ORIGINS=${{ secrets.CORS_ORIGINS }}
+          docker pull ghcr.io/${{ github.repository }}/backend:latest
+          docker stop ems-backend || true
+          docker rm ems-backend || true
+          docker run -d \
+            --name ems-backend \
+            -p 8002:8001 \
+            -e DATABASE_URL="$DATABASE_URL" \
+            -e SECRET_KEY="$SECRET_KEY" \
+            -e CORS_ORIGINS="$CORS_ORIGINS" \
+            -e API_V1_STR="/api/v1" \
+            -e PROJECT_NAME="Employee Management System" \
+            -e VERSION="1.0.0" \
+            -e ACCESS_TOKEN_EXPIRE_MINUTES="30" \
+            -e ENVIRONMENT="production" \
+            ghcr.io/${{ github.repository }}/backend:latest
