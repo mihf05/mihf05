@@ -1,13 +1,14 @@
 # 🚀 Md Irfan Hasan Fahim
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=black)](https://irfanhasan.vercel.app)  
-[![GitHub](https://img.shields.io/badge/💻_GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mihf05)  
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/mihf05)  
-[![Email](https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black)](mailto:irfanhasan@kanect.live)  
-[![Phone](https://img.shields.io/badge/📱_Phone-ffffff?style=for-the-badge&logo=phone&logoColor=black)](tel:+8801341601713)  
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=black)](https://irfanhasan.vercel.app) 
+[![GitHub](https://img.shields.io/badge/💻_GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mihf05) 
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/mihf05) 
+[![Email](https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black)](mailto:irfanhasan@kanect.live) 
+[![Phone](https://img.shields.io/badge/📱_Phone-ffffff?style=for-the-badge&logo=phone&logoColor=black)](tel:+8801341601713)
 
 </div>
+
 
 
 ```bash
