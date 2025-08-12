@@ -1,4 +1,9 @@
 # 🚀 Md Irfan Hasan Fahim
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=black)](https://irfanhasan.vercel.app)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mihf05)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/mihf05)
+[![Email](https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black)](mailto:irfanhasan@kanect.live)
+[![Phone](https://img.shields.io/badge/📱_Phone-ffffff?style=for-the-badge&logo=phone&logoColor=black)](tel:+8801341601713)
 
 ```bash
 $ who am i
@@ -6,15 +11,6 @@ $ who am i
 **Software Engineer – Full-Stack Web & Mobile Applications**
 
 Product-focused software engineer, delivering high-performance web and mobile applications. Specialised in full-stack development, real-time systems, and cloud-native infrastructure. Proven ability to optimise system performance, lead agile teams, and ship production-grade features under tight deadlines.
-
-```bash
-$ cat contact.txt
-```
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=black)](https://irfanhasan.vercel.app)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mihf05)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/mihf05)
-[![Email](https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black)](mailto:irfanhasan@kanect.live)
-[![Phone](https://img.shields.io/badge/📱_Phone-ffffff?style=for-the-badge&logo=phone&logoColor=black)](tel:+8801341601713)
 
 
 ```bash
