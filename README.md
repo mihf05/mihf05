@@ -1,112 +1,133 @@
-$ whoami  
-Md. Irfan Hasan Fahim  
+# 🚀 Md Irfan Hasan Fahim
 
-$ cat bio.txt  
-Product-focused Software Engineer specializing in high-performance  
-web & mobile applications. Skilled in full-stack development,  
-real-time systems, and cloud-native infrastructure with React, Next.js,  
-Node.js, NestJS, Django, Flutter, and Kotlin Multiplatform.  
-Experienced in performance optimization, agile leadership, and  
-production-grade delivery—building reliable, future-ready systems  
-for business growth.  
+```bash
+$ whoami
+```
+**Software Engineer – Full-Stack Web & Mobile Applications**
 
-$ ls -la skills/  
+Product-focused software engineer, delivering high-performance web and mobile applications. Specialised in full-stack development, real-time systems, and cloud-native infrastructure. Proven ability to optimise system performance, lead agile teams, and ship production-grade features under tight deadlines.
+
+```bash
+$ cat contact.txt
+```
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=black)](https://irfanhasan.vercel.app)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mihf05)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/mihf05)
+[![Email](https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black)](mailto:irfanhasan@kanect.live)
+[![Phone](https://img.shields.io/badge/📱_Phone-ffffff?style=for-the-badge&logo=phone&logoColor=black)](tel:+8801341601713)
+
+
+```bash
+$ ls -la skills/
+```
+
+<div align="center">
 
 <table>
 <tr>
-<td>
+<td valign="top" width="33%">
 
-<b>frontend/</b>  
-├── React  
-├── Next.js  
-├── React Native  
-├── Flutter  
-├── Kotlin Multiplatform  
-├── PWA  
+**💻 Languages**
+```
+├── 🟨 JavaScript
+├── 🔵 TypeScript  
+├── 🐍 Python
+└── 🟣 Kotlin
+```
 
 </td>
-<td>
+<td valign="top" width="33%">
 
-<b>backend/</b>  
-├── Node.js  
-├── Express.js  
-├── NestJS  
-├── Django  
-├── Flask  
-├── GraphQL  
-├── WebSockets  
-├── Microservices  
+**🎨 Frontend**
+```
+├── ⚛️ React & Next.js
+├── 📱 React Native
+├── 🎯 Flutter
+├── ⚡ Kotlin Multiplatform
+└── 🌐 Progressive Web Apps
+```
+
+</td>
+<td valign="top" width="33%">
+
+**🚀 Backend**
+```
+├── 🟢 Node.js & Express.js
+├── 🏗️ NestJS
+├── 🐍 Django & Flask
+├── 📊 PostgreSQL & MongoDB
+└── ⚡ Redis & WebSocket
+```
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top" width="50%">
 
-<b>tools_infra/</b>  
-├── PostgreSQL  
-├── MongoDB  
-├── MariaDB  
-├── Prisma  
-├── Redis  
-├── Docker  
-├── Kubernetes  
-├── AWS (EC2, S3, Polly)  
-├── Vercel  
-├── Supabase  
-├── Coolify  
-├── CI/CD  
-├── Git & GitHub  
-├── Swagger  
-├── Postman  
-├── LibreOffice CLI  
-├── VS Code  
-├── Figma  
+**☁️ Cloud & DevOps**
+```
+├── ☁️ AWS (EC2, S3, Polly)
+├── 🚢 Docker & Kubernetes  
+├── 🔄 CI/CD Pipelines
+├── 🌍 Vercel & Supabase
+└── 🛠️ Coolify
+```
 
 </td>
-<td>
+<td valign="top" width="50%">
 
-<b>other/</b>  
-├── Performance Optimization  
-├── Real-time Systems  
-├── Cloud Deployments  
-├── API Design  
-├── Agile Leadership  
+**🔧 Tools & More**
+```
+├── 📊 GraphQL & REST APIs
+├── 🔌 WebSockets & WebRTC
+├── 🏗️ Microservices
+├── 📝 Git & GitHub
+├── 🎨 Figma Design
+└── 📡 Postman & Swagger
+```
 
 </td>
 </tr>
 </table>
 
-$ tree projects/  
+</div>
 
-projects/  
-├── MRT Buddy  
-│   ├── Next.js Website (40% faster load, +30% mobile responsiveness)  
-│   └── Flutter → Kotlin Multiplatform migration  
-├── Face Recognition System  
-│   ├── Flask + OpenCV + Django + MongoDB  
-│   └── Real-time secure access control  
-├── School Management System  
-│   ├── Django + Flask + PostgreSQL  
-│   └── AWS hosted responsive interface  
 
-$ cat experience.txt  
+```bash
+$ ls achievements/
+```
 
-Ryven.co | Contractual Software Engineer (Backend) | Mar 2025 – May 2025  
-• Built SaaS EdTech platform in 40 days (Next.js, NestJS, Prisma, PostgreSQL, WebRTC, WebSocket)  
-• Developed real-time class system, collaborative canvas, PPTX conversion, AWS Polly TTS  
+```
+🏆 awards/
+├── 🥇 Champion - Bangabandhu National Science Fair (2023)
+├── 🥉 3rd Place - Sheikh Russel Innovation Fair (2024)
+└── 🌍 Divisional Winner - International Earth Science Olympiad (2023)
 
-Achieve | Freelance Full-Stack Developer | Dec 2024 – Feb 2025  
-• CRM dashboard for 40,000+ students with 99.9% uptime, optimized DB load by 30%  
-• Built branch management & exam/result systems  
+🎓 education/
+├── United International University (2025-2029)
+│   └── 🎯 Bachelor of Science (BS) – Computer Science & Engineering
+└── Tamirul Millat Kamil Madrasah (2019-2023)
+    ├── 📊 GPA: 5.00/5.00
+    └── 📚 Coursework: Math, Physics, C Programming, Web Design
 
-Apon Gadgets | Contractual Full-Stack Developer | Sept 2024 – Oct 2024  
-• Web, Android, iOS apps with React Native + Supabase + Stripe  
-• Performance, security, and UX optimization  
+```
 
-Muktir Ghonta | CTO | May 2021 – Oct 2024  
-• Led tech strategy & research with 1.5k+ reads, 3 recommendations  
+```bash
+$ git log --oneline --graph
+```
 
-$ cat awards.txt  
-• Champion — Bangabandhu National Science Fair (2023)  
-• 3rd Place — Sheikh Russel Innovation Fair (2024)  
-• Divisional Winner — Intl. Earth Science Olympiad (2023)  
+```
+* 🚀 Currently building the future with cutting-edge tech
+* ⚡ Optimising performance and delivering scalable solutions  
+* 🌟 Leading teams and driving innovation
+* 📈 Growing expertise in cloud-native architectures
+* 🎯 Committed to reliable, future-ready systems
+```
+
+---
+
+<div align="center">
+
+**💫 "Building reliable, future-ready systems that drive business growth and rapid product delivery" 💫**
+
+</div>
