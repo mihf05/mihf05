@@ -1,7 +1,7 @@
 # 🚀 Md Irfan Hasan Fahim
 
 ```bash
-$ whoami
+$ who am i
 ```
 **Software Engineer – Full-Stack Web & Mobile Applications**
 
@@ -102,7 +102,11 @@ $ ls achievements/
 ├── 🥇 Champion - Bangabandhu National Science Fair (2023)
 ├── 🥉 3rd Place - Sheikh Russel Innovation Fair (2024)
 └── 🌍 Divisional Winner - International Earth Science Olympiad (2023)
-
+```
+```bash
+$ ls edu/
+```
+```
 🎓 education/
 ├── United International University (2025-2029)
 │   └── 🎯 Bachelor of Science (BS) – Computer Science & Engineering
