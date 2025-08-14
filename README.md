@@ -14,9 +14,9 @@
 ```bash
 $ who am i
 ```
-**Software Engineer – Full-Stack Web & Mobile Applications**
+**Software Developer – Full-Stack Web & Mobile Applications**
 
-Product-focused software engineer, delivering high-performance web and mobile applications. Specialised in full-stack development, real-time systems, and cloud-native infrastructure. Proven ability to optimise system performance, lead agile teams, and ship production-grade features under tight deadlines.
+Product-focused software developer, delivering high-performance web and mobile applications. Specialised in full-stack development, real-time systems, and cloud-native infrastructure. Proven ability to optimise system performance, lead agile teams, and ship production-grade features under tight deadlines.
 
 
 ```bash
