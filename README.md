@@ -31,10 +31,9 @@ $ ls -la skills/
 
 **💻 Languages**
 ```
-├── 🟨 JavaScript
-├── 🔵 TypeScript  
 ├── 🐍 Python
-└── 🟣 Kotlin
+├── ⚡ JavaScript
+└── 🔵 TypeScript
 ```
 
 </td>
@@ -42,11 +41,9 @@ $ ls -la skills/
 
 **🎨 Frontend**
 ```
-├── ⚛️ React & Next.js
-├── 📱 React Native
-├── 🎯 Flutter
-├── ⚡ Kotlin Multiplatform
-└── 🌐 Progressive Web Apps
+├── ⚛️ React
+├── ⚡ Next.js
+└── 📱 React Native
 ```
 
 </td>
@@ -54,38 +51,53 @@ $ ls -la skills/
 
 **🚀 Backend**
 ```
-├── 🟢 Node.js & Express.js
+├── 🟢 Node.js
+├── 🚀 Express.js
 ├── 🏗️ NestJS
-├── 🐍 Django & Flask
-├── 📊 PostgreSQL & MongoDB
-└── ⚡ Redis & WebSocket
+├── 🐍 Flask
+└── 🐍 Django
 ```
 
 </td>
 </tr>
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
+
+**🗄️ Databases**
+```
+├── � PostgreSQL
+├── 🍃 MongoDB
+├── 🔺 Prisma
+├── ⚡ Supabase
+└── 🔴 Redis
+```
+
+</td>
+<td valign="top" width="33%">
 
 **☁️ Cloud & DevOps**
 ```
 ├── ☁️ AWS (EC2, S3, Polly)
-├── 🚢 Docker & Kubernetes  
-├── 🔄 CI/CD Pipelines
-├── 🌍 Vercel & Supabase
+├── 🚢 Docker
+├── ⚙️ Kubernetes
+├── 🔄 CI/CD
 └── 🛠️ Coolify
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-**🔧 Tools & More**
+**🔧 Tools & APIs**
 ```
-├── 📊 GraphQL & REST APIs
-├── 🔌 WebSockets & WebRTC
-├── 🏗️ Microservices
 ├── 📝 Git & GitHub
-├── 🎨 Figma Design
-└── 📡 Postman & Swagger
+├── 📊 GraphQL
+├── 🔌 WebSockets
+├── 🏗️ Microservices
+├── � Swagger
+├── 🧪 Postman
+├── 📄 LibreOffice CLI
+├── � VS Code
+└── 🎨 Figma
 ```
 
 </td>
